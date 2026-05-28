@@ -1,0 +1,17 @@
+# --- Настройка по умолчанию для GitHub ---
+
+#Host github.com
+#    HostName github.com
+#   User git
+#   IdentityFile ~/.ssh/github_key_ed25519
+#   AddKeysToAgent yes
+#   macOS — хранить passphrase в Keychain (на Linux/Windows строку убрать):
+#   UseKeychain yes
+
+# Тестирование подключения через порт 443
+ Host github.com
+    HostName ssh.github.com
+     User git
+     Port 443
+     IdentityFile ~/.ssh/github_key_ed25519
+     AddKeysToAgent yes

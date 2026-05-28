@@ -1,0 +1,12 @@
+[user]
+	name = Alexander_D
+	email = alexander_d@gmail.com
+[init]
+	defaultBranch = main
+[core]
+	editor = codium --wait
+[alias]
+	st = status
+	lg = log --oneline --graph --all --decorate
+	last = log -1 HEAD --stat
+	undo = reset HEAD~1 --mixed
